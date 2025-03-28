@@ -1,0 +1,44 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.env/
+
+# FastAPI related
+*.db
+*.sqlite3
+
+# IDE/editor folders and settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Python distribution folder
+dist/
+build/
+*.egg-info/
+
+# Test coverage folder (if you have it)
+.coverage/
+
+# .env file (if you store environment variables in it)
+.env
+
+# Optional: dependencies
+requirements.txt  # If you're generating it dynamically, you may want to exclude it from version control
