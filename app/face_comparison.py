@@ -52,3 +52,8 @@ async def compare_faces(image1: UploadFile = File(...), image2: UploadFile = Fil
             os.remove(temp1_path)
         if temp2_path:
             os.remove(temp2_path)
+            
+            
+            
+            
+            gksgfpgjsoghohdfghghshghishifgyhidgfidgi
