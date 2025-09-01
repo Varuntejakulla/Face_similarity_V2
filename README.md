@@ -15,4 +15,3 @@ This FastAPI application provides a service to compare two face images using fac
 ## Running the application
 
 1. Install dependencies:
-

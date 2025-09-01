@@ -1,0 +1,21 @@
+[project]
+name = "face-similarity-v2"
+version = "0.1.0"
+description = "Face similarity project"
+authors = [
+    { name = "Varuntejakulla", email = "varuneeeaims@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "opencv-python"
+]
+
+[tool.poetry.packages]
+# include the app folder as the package
+include = "app"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
